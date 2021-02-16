@@ -4,4 +4,14 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="MailKit" Version="2.10.1" />
+    <PackageReference Include="MassTransit" Version="7.2.0-develop.3299" />
+    <PackageReference Include="MassTransit.AspNetCore" Version="7.2.0-develop.3299" />
+    <PackageReference Include="MassTransit.Extensions.DependencyInjection" Version="7.2.0-develop.3299" />
+    <PackageReference Include="MassTransit.RabbitMQ" Version="7.2.0-develop.3299" />
+    <PackageReference Include="MimeKit" Version="2.10.1" />
+    <PackageReference Include="Nano35.Contracts" Version="1.4.4" />
+  </ItemGroup>
+
 </Project>
